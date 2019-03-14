@@ -17,9 +17,7 @@ main()
 			if(s[i]=='A')
 			{
 				if(k==1)
-				{
 					a=a+temp;
-				}
 				a++;
 				k=1;
 				temp=0;
@@ -27,9 +25,7 @@ main()
 			else if(s[i]=='B')
 			{
 				if(k==2)
-				{
-					b=b+temp;
-				}
+				 	b=b+temp;
 				b++;
 				k=2;
 				temp=0;
@@ -37,9 +33,7 @@ main()
 			else if(s[i]=='.')
 			{
 				if(k!=0)
-				{
 					temp++;
-				}
 			}
 		}
 		cout<<a<<" "<<b<<endl;
